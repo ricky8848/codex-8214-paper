@@ -4,13 +4,13 @@
 
 8214 与闭源桌面宿主（ChatGPT.app）共享同一持久层（`~/.codex`）作为单一事实源：读 = 宿主自持久化的追加日志跨进程增量跟随（token 级）；写 = 宿主官方输入队列单写路径（宿主唯一执行者）。零逆向、零注入、零进程代管。
 
-## 文档
+## 文档下载（[v1.0 Release](https://github.com/ricky8848/codex-8214-paper/releases/tag/v1.0)）
 
-| 文件 | 语言 | 说明 |
-|------|------|------|
-| `8214-bidirectional-sync-thesis-CN.pdf` | 中文 | 论文：理论（Thesis 1–3）+ 架构 + 实现独到性 + OpenAI 标准完备性审计 + 理论验证数据（9 页） |
-| `8214-thesis-EN.pdf` | 英文 | 同内容英译（10 页），DOI 主发版 |
-| `8214-8214双向同步架构-使用说明书.pdf` | 中文 | 用户使用说明（独立文档，非论文） |
+| 文件 | 语言 | 说明 | 直链 |
+|------|------|------|------|
+| `8214-thesis-CN.pdf` | 中文 | 论文：理论（Thesis 1–3）+ 架构 + 实现独到性 + OpenAI 标准完备性审计 + 理论验证数据（9 页） | [下载](https://github.com/ricky8848/codex-8214-paper/releases/download/v1.0/8214-thesis-CN.pdf) |
+| `8214-thesis-EN.pdf` | 英文 | 同内容英译（10 页），DOI 主发版 | [下载](https://github.com/ricky8848/codex-8214-paper/releases/download/v1.0/8214-thesis-EN.pdf) |
+| `8214-user-manual.pdf` | 中文 | 用户使用说明（独立文档，非论文） | [下载](https://github.com/ricky8848/codex-8214-paper/releases/download/v1.0/8214-user-manual.pdf) |
 
 ## 作者
 
